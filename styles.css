@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Playfair Display', serif;
+}
+
+main {
+  min-height: 100vh;
+  max-height: 100%;
+  width: 100%;
+  background: url("https://wallpapertag.com/wallpaper/full/3/5/3/742565-beautiful-colors-background-1920x1280-macbook.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+}
+
+.question {
+  color: white;
+  text-shadow: 2px 1px 2px black;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  height: 3rem;
+  width: 50%;
+  font-size: 2rem;
+  margin: 0;
+}
+
+button {
+  font-size: 2rem;
+  margin: 0 0 0 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 2px 1px 2px black;
+  background-color: #00BCD4;
+  border: none;
+  box-shadow: 2px 2px 2px #0000004f;
+}
+
+button:hover {
+  background-color: #00aabf;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+#gif-container {
+  height: 70vh;
+  overflow-y: scroll;
+  text-align: center;
+  margin-top: 1rem;
+  padding: .5rem;
+  background-color: #ffffff63;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #0000004f;
+}
+
+.gif {
+  margin: .5rem;
+  box-shadow: 4px 4px 12px 0px black;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
