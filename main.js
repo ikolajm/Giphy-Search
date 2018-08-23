@@ -13,8 +13,6 @@ function getData() {
   sendRequest(url);
 }
 
-
-
 function sendRequest(url) {
   var xml = new XMLHttpRequest();
   xml.onreadystatechange = function() {
